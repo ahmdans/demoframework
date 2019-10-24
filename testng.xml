@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="nopCommerce regression test">
+  <parameter name ="browser" value="chrome-headless"> </parameter>
+  <test name="regressiom test">
+    <classes>
+      <class name="testCases.UserregistrationtestcaseWithJavaFaker"/>
+    </classes>
+  </test> 
+</suite> 
